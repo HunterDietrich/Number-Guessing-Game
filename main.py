@@ -38,7 +38,8 @@ while still_playing == True:
 
     answer = input("Do you want to play again? Y or N")
 
-    if answer == "N":
+    if answer.upper() == "N":
+        print(answer)
         print("Okay! bye")
         still_playing = False
     else:
